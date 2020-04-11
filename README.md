@@ -5,8 +5,9 @@ Merit | Edge Resume Parser and Scorer
 
 ### Dependencies
 * Must have Latex installed!
-* pdfquery (`pip install pdfquey`)
+* pdfquery (`pip install pdfquery`)
 * pdfminer (`pip install pdfminer`)
+* simply run ``` pip install -r requirements.txt ``` to install all dependencies at once.
 
 Our resume parser and scorer use these components to create a Latex .pdf file of results:
 - Category score (what field your resume seems best suited for)

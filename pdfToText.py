@@ -1,9 +1,10 @@
-import pdfquery
 from cStringIO import StringIO
-from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
+
 from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
+from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.pdfpage import PDFPage
+
 
 def convert(fname, pages=None):
     if not pages:
@@ -23,4 +24,4 @@ def convert(fname, pages=None):
     converter.close()
     text = output.getvalue()
     output.close
-    return text 
+    return text

@@ -1,0 +1,17 @@
+chardet==3.0.4
+cssselect==1.1.0
+data==0.4
+decorator==4.4.2
+funcsigs==1.0.2
+future==0.18.2
+latex==0.7.0
+lxml==4.5.0
+pdfminer==20140328
+pdfquery==0.4.3
+pdftotext==2.1.4
+pycryptodome==3.9.7
+pyquery==1.4.1
+roman==3.2
+shutilwhich==1.1.0
+six==1.14.0
+tempdir==0.7.1
